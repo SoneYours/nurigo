@@ -19,7 +19,7 @@
         {$form_data}
 
 	<div class="choice_box">
-		{$plugin_info->account_title}
+        <h3>{$plugin_info->account_title}</h3>
 		<ul>
 			{@$count=0}
 			<li loop="$account_list=>$key,$val">
@@ -37,7 +37,7 @@
 	<div class="btn_payment">
 		<span><input type="submit" value="{$lang->do_payment}" class="nuribtn magenta super" /></span>
     </div>
-	
+
 	<div class="payment_info">
 
 	</div>

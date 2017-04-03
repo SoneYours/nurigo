@@ -15,3 +15,60 @@
 .nmileage_wrap { padding:10px; background:#fff; }
 .nmileage_tit { background:#eee; }
 .nmileage_wrap .m_title{ text-align:left; margin-bottom:10px; }
+
+
+/* custom
+---------------------------------------- */
+
+/* mileage */
+.container .nmileage_wrap {
+    padding: 10px 0;
+}
+.nmileage_wrap .nm_tit {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.nmileage_wrap .nm_tit h2 {
+    color: #969696;
+    border-bottom: none;
+    margin-bottom: 10px;
+    font: 600 20px 'Nanum Gothic', sans-serif;
+}
+.nmileage_wrap .nm_tit span {
+    color: #666;
+    font-size: 14px;
+}
+.nmileage_wrap .mileage_total {
+    padding: 0;
+    height: 50px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-color: #ddd;
+    border-top-width: 2px;
+    background-color: #f7f5f8;
+    font: 400 16px/50px 'Nanum Gothic', sans-serif;
+}
+.nmileage_wrap .mileage_total span {
+    display: block;
+    height: 100%;
+    text-indent: 10px;
+    color: #555;
+    position: relative;
+}
+.nmileage_wrap .mileage_total span span {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff0000;
+    font-weight: 600;
+    background-color: #fff;
+}
+.nmileage_wrap .mileage_box {
+    font: 400 12px 'Nanum Gothic', sans-serif;
+}
+.nmileage_wrap .pagination strong {
+    margin: 0 10px;
+}
