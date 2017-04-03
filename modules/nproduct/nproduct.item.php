@@ -104,7 +104,7 @@ class nproductItem extends Object
 	 * @return mixed
 	 * @HACK : Fixed to use this method exclusively for shopping carts.
 	 */
-	function cartPrintPrice($price = null)
+	public static function cartPrintPrice($price = null)
 	{
 		$oCurrencyModel = getModel('currency');
 
